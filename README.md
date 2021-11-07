@@ -11,3 +11,4 @@ This is very basic Northgard mod template
 # Help
 * Your LOCAL mods directory: SteamLibrary\steamapps\common\Northgard\mods\
 * Your SUBSCRIBED mods directory: SteamLibrary\steamapps\workshop\content\466560\
+* Mod that uses this very script in SteamWorkshop: https://steamcommunity.com/sharedfiles/managepreviews/?id=2648053701
