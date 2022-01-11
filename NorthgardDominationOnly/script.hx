@@ -46,10 +46,15 @@ function regularUpdate(dt : Float) {
 // // --- END of BOILERPLATE ---
 
 function setVictory() {
-    // Setup Domination only victory
-    state.removeVictory(VictoryKind.VMoney);
+    // Comment Victory kinds you need,
+    // but be sure to have at least one Victory (i.e. commented or remove that particular type)
     state.removeVictory(VictoryKind.VFame);
+    state.removeVictory(VictoryKind.VMoney);
     state.removeVictory(VictoryKind.VLore);
+    state.removeVictory(VictoryKind.VYggdrasil);
+    state.removeVictory(VictoryKind.VOdinSword);
+    state.removeVictory(VictoryKind.VHelheim);
+    //state.removeVictory(VictoryKind.VMilitary);
 }
 
 function setObjectives() {
