@@ -54,6 +54,7 @@ function setVictory() {
     state.removeVictory(VictoryKind.VYggdrasil);
     state.removeVictory(VictoryKind.VOdinSword);
     state.removeVictory(VictoryKind.VHelheim);
+    state.removeVictory(VictoryKind.VMealSquirrel);
     //state.removeVictory(VictoryKind.VMilitary);
 }
 
