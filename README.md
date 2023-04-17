@@ -2,13 +2,19 @@
 This is very basic Northgard mod template
 
 # Usage
-1. git clone https://github.com/Sviat/dominorthgard.git
+1. ``git clone https://github.com/Sviat/dominorthgard.git``
 2. (optional) Create a new Mod in Northgard -> Creative -> Create Mod
-3. Copy NorthgardDominationOnly/script.hx to your Mod directory (near map.dat file)
+3. Copy ``NorthgardDominationOnly/script.hx`` to your Mod directory (see below) near existing map.dat file
 5. ?!
 6. PROFIT!
 
 # Help
-* Your LOCAL mods directory: SteamLibrary\steamapps\common\Northgard\mods\
-* Your SUBSCRIBED mods directory: SteamLibrary\steamapps\workshop\content\466560\
-* Mod that uses this very script in SteamWorkshop: https://steamcommunity.com/sharedfiles/managepreviews/?id=2648053701
+* If you don't know what ``git clone`` means
+* Your LOCAL mods directory: ``SteamLibrary\steamapps\common\Northgard\mods\``
+** So your mod XYZ is located in: ``SteamLibrary\steamapps\common\Northgard\mods\XYZ``
+* Your SUBSCRIBED mods directory: ``SteamLibrary\steamapps\workshop\content\466560\``
+* Mod that uses this very script in SteamWorkshop: https://steamcommunity.com/sharedfiles/managepreviews/?id=2648053701 (nota bene: id=2648053701)
+** Once uploaded, your mod will get unique ID from SteamWorkshop, so for example, combining knowledge from two previous points, it will be located locally in: ``SteamLibrary\steamapps\workshop\content\466560\2648053701\``
+
+# License
+Do whatever you want, just keep reference to original repo: https://github.com/Sviat/dominorthgard
