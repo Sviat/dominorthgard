@@ -1,14 +1,14 @@
 /// Copyleft (C) Northgard Community
 /// Send your requests, questions and issues
-///		here: https://github.com/Sviat/dominorthgard/issues
-///		or in Discord "Northgard Official"
+///     here: https://github.com/Sviat/dominorthgard/issues
+///     or in Discord "Northgard Official"
 
 // --- Named constants, settings and flags ---
 var CONSTS = {
     DEBUG: false
 }
 
-// --- State to set onFirstLaunch, keep and serialize with Save  ---
+// --- State to set onFirstLaunch, keep (serialize) with Save and restore (deserialize) with Load ---
 DATA = {
 }
 
@@ -34,7 +34,7 @@ function init() {
 
 function onFirstLaunch() {
     setVictory();
-    setObjectives(); 	// if you want to use Objectives API do it here, on first launch only
+    setObjectives(); // if you want to use Objectives API do it here, on first launch only
 }
 
 function onEachLaunch() {
@@ -46,18 +46,18 @@ function regularUpdate(dt : Float) {
 // // --- END of BOILERPLATE ---
 
 function setVictory() {
-    // Comment Victory kinds you need,
+    // (Un)comment Victory kinds you need,
     // but be sure to have at least one Victory (i.e. commented or remove that particular type)
-    state.removeVictory(VictoryKind.VFame);
-    state.removeVictory(VictoryKind.VMoney);
-    state.removeVictory(VictoryKind.VLore);
-    state.removeVictory(VictoryKind.VYggdrasil);
-    state.removeVictory(VictoryKind.VOdinSword);
-    state.removeVictory(VictoryKind.VHelheim);
-    state.removeVictory(VictoryKind.VMealSquirrel);
-    //state.removeVictory(VictoryKind.VMilitary);
+    state.removeVictory(VictoryKind.Fame);
+    state.removeVictory(VictoryKind.Money);         // Commercial Influence
+    state.removeVictory(VictoryKind.Lore);
+    state.removeVictory(VictoryKind.Yggdrasil);     // Colonization
+    state.removeVictory(VictoryKind.OdinSword);
+    state.removeVictory(VictoryKind.Helheim);
+    state.removeVictory(VictoryKind.MealSquirrel);  // Squirrel's banquet
+    //state.removeVictory(VictoryKind.Military);    // Domination
 }
 
 function setObjectives() {
-	// Setup Objectives (progress bars with button) to show players in top right corner
+    // Setup Objectives (progress bars with button) to show players in top right corner
 }
