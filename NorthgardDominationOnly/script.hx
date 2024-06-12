@@ -48,14 +48,14 @@ function regularUpdate(dt : Float) {
 function setVictory() {
     // (Un)comment Victory kinds you need,
     // but be sure to have at least one Victory (i.e. commented or remove that particular type)
-    state.removeVictory(VictoryKind.Fame);
-    state.removeVictory(VictoryKind.Money);         // Commercial Influence
-    state.removeVictory(VictoryKind.Lore);
-    state.removeVictory(VictoryKind.Yggdrasil);     // Colonization
-    state.removeVictory(VictoryKind.OdinSword);
-    state.removeVictory(VictoryKind.Helheim);
-    state.removeVictory(VictoryKind.MealSquirrel);  // Squirrel's banquet
-    //state.removeVictory(VictoryKind.Military);    // Domination
+    state.removeVictory(Victory.Fame);
+    state.removeVictory(Victory.Money);         // Commercial Influence
+    state.removeVictory(Victory.Lore);
+    state.removeVictory(Victory.Yggdrasil);     // Colonization
+    state.removeVictory(Victory.OdinSword);
+    state.removeVictory(Victory.Helheim);
+    state.removeVictory(Victory.MealSquirrel);  // Squirrel's banquet
+    //state.removeVictory(Victory.Military);    // Domination
 }
 
 function setObjectives() {
