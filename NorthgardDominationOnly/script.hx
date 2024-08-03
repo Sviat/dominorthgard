@@ -55,6 +55,7 @@ function setVictory() {
     state.removeVictory(Victory.OdinSword);
     state.removeVictory(Victory.Helheim);
     state.removeVictory(Victory.MealSquirrel);  // Squirrel's banquet
+    state.removeVictory(Victory.OwlTitanVic);   // Ows's "Lore" Victory
     //state.removeVictory(Victory.Military);    // Domination
 }
 
