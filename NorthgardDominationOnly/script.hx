@@ -49,7 +49,8 @@ function setVictory() {
     // (Un)comment Victory kinds you need,
     // but be sure to have at least one Victory (i.e. commented or remove that particular type)
     state.removeVictory(Victory.Fame);
-    state.removeVictory(Victory.Money);         // Commercial Influence
+    //state.removeVictory(Victory.Money);         // old Commercial Influence
+    state.removeVictory(Victory.Outsiders);     // NEW Commercial Influence
     state.removeVictory(Victory.Lore);
     state.removeVictory(Victory.Yggdrasil);     // Colonization
     state.removeVictory(Victory.OdinSword);
